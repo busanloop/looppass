@@ -150,9 +150,14 @@ export default function AdminPage() {
       <header className="bg-gray-900 text-white px-4 py-4">
         <div className="flex items-center justify-between max-w-lg mx-auto">
           <h1 className="text-lg font-bold">LoopPass 관리자</h1>
-          <Link href="/admin/members" className="text-sm opacity-80 hover:opacity-100">
-            회원 관리
-          </Link>
+          <div className="flex items-center gap-3">
+            <Link href="/admin/partners" className="text-sm opacity-80 hover:opacity-100">
+              제휴 매장 관리
+            </Link>
+            <Link href="/admin/members" className="text-sm opacity-80 hover:opacity-100">
+              회원 관리
+            </Link>
+          </div>
         </div>
       </header>
 
